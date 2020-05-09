@@ -1,5 +1,5 @@
 {% extends "admin/base_site.html" %}
-{% load i18n l10n admin_urls uikit_admin %}
+{% load i18n l10n admin_urls uikit3_admin %}
 
 {% block bodyclass %}{{ block.super }} app-{{ opts.app_label }} model-{{ opts.model_name }} delete-confirmation
     delete-selected-confirmation{% endblock %}
